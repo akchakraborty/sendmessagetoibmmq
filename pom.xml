@@ -24,8 +24,17 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-starter-activemq</artifactId>
+		</dependency>
+		<dependency>
+    		<groupId>com.azure</groupId>
+    		<artifactId>azure-core</artifactId>
+    		<version>1.13.0</version>
+		</dependency>
+		<dependency>
+    		<groupId>com.azure</groupId>
+    		<artifactId>azure-messaging-servicebus</artifactId>
+    		<version>7.0.2</version>
 		</dependency>
 	</dependencies>
 
